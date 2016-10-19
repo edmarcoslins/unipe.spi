@@ -1,0 +1,29 @@
+main {
+  width: 100%;
+  height: 40px;
+  background-color: #4694e0;
+}
+main ul:last-child {
+  float: right;
+}
+main ul {
+  height: 40px;
+  float: left;
+}
+main ul a {
+  color: #fff;
+  text-decoration: none;
+}
+main ul a li {
+  list-style: none;
+  display: table-cell;
+  vertical-align: middle;
+  height: 40px;
+  padding: 0px 2px 0px 2px;
+  font-family: "Trebushet MS", arial;
+  font-weight: bold;
+}
+main ul a li:hover {
+  background-color: #fff;
+  color: #4694e0;
+}
